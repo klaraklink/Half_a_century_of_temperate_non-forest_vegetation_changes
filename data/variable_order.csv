@@ -1,0 +1,70 @@
+variable,label,order,group
+GF_annual,Annual herb,1,Growth form
+GF_monocarpic,Monocarpic herb,2,Growth form
+GF_polycarpic,Polycarpic herb,3,Growth form
+GF_clonal,Clonal herb,4,Growth form
+GF_dwarf,Dwarf shrub,5,Growth form
+GF_shrub,Shrub,6,Growth form
+GF_tree,Tree,7,Growth form
+grass,Grass,8,Graminoid
+graminoid,Graminoid,9,Graminoid
+LS_Pierce_C,Competitive,10,Life strategy
+LS_Pierce_S,Stress-tolerant,11,Life strategy
+LS_Pierce_R,Ruderal,12,Life strategy
+log_height_mean,Height (log),13,Habitus and growth type
+log_leaf_size,Leaf size (log),14,Habitus and growth type
+SLA,SLA,15,Habitus and growth type
+LLS_overwintering_green,Overwintering green,16,Leaf life span
+LLS_spring_green,Spring green,17,Leaf life span
+LLS_summer_green,Summer green,18,Leaf life span
+LLS_evergreen,Evergreen,19,Leaf life span
+LA_succulent,Succulent,20,Leaf anatomy
+LA_scleromorphic,Scleromorphic,21,Leaf anatomy
+LA_mesomorphic,Mesomorphic,22,Leaf anatomy
+LA_hygromorphic,Hygromorphic,23,Leaf anatomy
+LA_helomorphic,Helomorphic,24,Leaf anatomy
+LA_hydromorphic,Hydromorphic,25,Leaf anatomy
+GR_allogamy,Allogamy,26,Generative reproduction type
+GR_autogamy,Autogamy,27,Generative reproduction type
+GR_mixed_mating,Mixed mating,28,Generative reproduction type
+GR_apomixis,Apomixis,29,Generative reproduction type
+wind_pollination,Wind pollination,30,Pollination syndrome
+insect_pollination,Insect pollination,31,Pollination syndrome
+selfing,Selfing,32,Pollination syndrome
+RT_veg,Vegetatively,33,Reproduction type
+RT_seed_or_veg,Seeds or vegetatively,34,Reproduction type
+RT_seed,Seeds,35,Reproduction type
+DS_Allium,Allium (autochory),36,Dispersal strategy
+DS_Bidens,Bidens (auto- and epizoochory),37,Dispersal strategy
+DS_Cornus,Cornus (auto- and endozoochory),38,Dispersal strategy
+DS_Epilobium,Epilobium (anemo- and autochory),39,Dispersal strategy
+DS_Lycopodium,Lycopodium (anemochory),40,Dispersal strategy
+DS_Phragmites,Phragmites (anemo- and hydrochory),41,Dispersal strategy
+DS_Sparganium,Sparganium (auto- and hydrochory),42,Dispersal strategy
+DS_Wolffia,Wolffia (hydrochory),43,Dispersal strategy
+DS_Zea,Zea (no dispersal),44,Dispersal strategy
+myrmecochorous,Myrmecochorous,45,Myrmecochory
+non_myrmecochorous,Non myrmecochorous,46,Myrmecochory
+Par_autotrophic,Autotrophic,47,Trophic mode
+Par_parasite,Parasite,48,Trophic mode
+Carnivory,Carnivorous,49,Trophic mode
+symbiosis_N_fixers,Symbiosis with N fixers,50,Trophic mode
+no_nitrogen_fixing,No nitrogen fixing,51,Trophic mode
+native,Native,52,Taxon origin
+archaeophyte,Archaeophyte,53,Taxon origin
+neophyte,Neophyte,54,Taxon origin
+EIV_light,Light,55,Ellenberg-type indicator values
+EIV_temp,Temperature,56,Ellenberg-type indicator values
+EIV_moist,Moisture,57,Ellenberg-type indicator values
+EIV_react,Reaction,58,Ellenberg-type indicator values
+EIV_nutr,Nutrients,59,Ellenberg-type indicator values
+dist_freq,Disturbance frequency,60,Disturbance indicator values
+dist_sev,Disturbance severity,61,Disturbance indicator values
+eco_spec_all,Ecological specialization,62,Ecological specialization
+colonization_success,Colonization success,63,Colonization ability
+colonization_potential,Colonization potential,64,Colonization ability
+CR,Critically Endangered,65,Red List category
+EN,Endangered,66,Red List category
+VU,Vulnerable,67,Red List category
+NT,Near Threatened,68,Red List category
+LC,Least Concern,69,Red List category
