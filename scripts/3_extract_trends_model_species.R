@@ -1,6 +1,6 @@
 #' Supplementary code to the article: 
-#' Klinkovska et al. Half a century of temperate non-forest vegetation changes: 
-#' no net loss in species richness, but considerable shifts in taxonomic and functional composition.
+#' Klinkovska et al. (2025) Half a century of temperate non-forest vegetation changes: 
+#' no net loss in species richness, but considerable shifts in taxonomic and functional composition. Global Change Biology.
 #' 
 #' Author: Klara Klinkovska, Helge Bruelheide 2024-09-24
 #' R version 4.3.2
@@ -20,9 +20,9 @@ library(tidyverse) # version 2.0.0
 
 # load data ---------------------------------------------------------------
 
-head <- read_csv('data/head.csv') 
+head <- read_csv('data/Klinkovska_et_al_half_a_century_of_temperate_vegetation_change_head.csv')
 
-spe <- read_csv('data/species.csv') |> 
+spe <- read_csv('data/Klinkovska_et_al_half_a_century_of_temperate_vegetation_change_species.csv') |> 
   left_join(head |> 
               select(PlotObservationID, RS_CODE_PLOT, year, Releve_area_m2, veg_type0) |> 
               group_by(RS_CODE_PLOT) |> 
