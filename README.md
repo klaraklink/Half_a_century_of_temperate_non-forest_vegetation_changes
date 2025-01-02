@@ -3,7 +3,7 @@
 ## Supplementary data and code to the article: 
 Klinkovská K., Sperandii M. G., Knollová I., Danihelka J., Hájek M., Hájková P., Hroudová Z., Jiroušek M., Lepš J., Navrátilová J., Peterka T., Petřík P., Prach K., Řehounková K., Rohel J., Sobotka V., Vávra M., Bruelheide H. & Chytrý M. (2025) Half a century of temperate non-forest vegetation changes: no net loss in species richness, but considerable shifts in taxonomic and functional composition. Global Change Biology.
 
-[![DOI](https://zenodo.org/badge/706733479.svg)](https://zenodo.org/doi/10.5281/zenodo.10060597)
+doi link
 
 This repository contains vegetation-plot time series data and code used for the analysis of temporal trends in the Czech vegetation. 
 
